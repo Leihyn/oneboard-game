@@ -7,10 +7,13 @@ node_modules/
 .DS_Store
 build/
 dist/
-node_modules/
-node_modules
+
+# Video build artifacts
 video/node_modules/
 video/out/
 video/voiceover/
 video/public/recording-*.mp4
+
+# Submission-only files
 PROJECT_DESCRIPTION.pdf
+README.txt

@@ -257,7 +257,7 @@ export function GameBoard() {
       </nav>
 
       {/* Main layout: board + chat */}
-      <div className="max-w-[1800px] mx-auto w-full px-2 md:px-4 py-2 md:py-4 flex flex-col md:flex-row gap-3 md:gap-4 overflow-auto md:overflow-hidden" style={{ height: "auto", minHeight: "calc(100vh - 78px)" }}>
+      <div className="max-w-[1800px] mx-auto w-full px-2 md:px-4 py-2 md:py-4 flex flex-col md:flex-row gap-3 md:gap-4 overflow-auto md:overflow-hidden" style={{ height: "calc(100vh - 78px)" }}>
         {/* Left: Board */}
         <div className="w-full md:flex-[65] min-w-0 overflow-hidden">
           <div className="board-grid">
@@ -310,7 +310,7 @@ export function GameBoard() {
         </div>
 
         {/* Right: Chat Panel */}
-        <div className="w-full md:flex-[35] min-w-0 h-[400px] md:h-full overflow-hidden">
+        <div className="w-full md:flex-[35] min-w-0 h-[400px] md:h-full md:min-h-0 overflow-hidden">
           <ChatPanel />
         </div>
       </div>

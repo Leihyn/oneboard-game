@@ -9,3 +9,8 @@ build/
 dist/
 node_modules/
 node_modules
+video/node_modules/
+video/out/
+video/voiceover/
+video/public/recording-*.mp4
+PROJECT_DESCRIPTION.pdf
